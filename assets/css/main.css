@@ -1,8 +1,29 @@
-.container{
-	background-color: #49F6B4;
-}
-
 .profile-header{
 	color: #494CF6;
 	text-align: center;
+}
+.profile-image{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 45%;
+}
+.card-1{
+	border-top:3px solid #1372dd;
+	border-left: 3px solid #1372dd;
+	border-right: 3px solid #1372dd;
+}
+.card-2{
+	border-bottom:3px solid #228B22;
+	border-left: 3px solid #228B22;
+	border-right: 3px solid #228B22;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-image{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 35%;
+}
 }
